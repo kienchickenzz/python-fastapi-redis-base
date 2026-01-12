@@ -1,5 +1,4 @@
 from fastapi import APIRouter, Depends
-from fastapi.responses import PlainTextResponse
 
 from src.shared.dependency_injection import Injects
 from src.health.doc import Tags

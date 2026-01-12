@@ -10,7 +10,7 @@ uv.lock
 .env.dev
 
 # Docker
-**/volumes
+**/volume
 **/docker/logs
 **/docker/plugins
 **/docker/config
