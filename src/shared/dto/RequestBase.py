@@ -1,6 +1,5 @@
-from pydantic import BaseModel, Field, ConfigDict, field_validator
+from pydantic import BaseModel, ConfigDict
 from humps import camelize
-from fastapi import Query
 
 
 class RequestBase(BaseModel):

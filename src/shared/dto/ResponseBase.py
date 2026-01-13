@@ -1,6 +1,7 @@
 from pydantic import BaseModel, ConfigDict
 from humps import camelize
 
+
 class ResponseBase(BaseModel):
     model_config = ConfigDict(
         frozen=True,
